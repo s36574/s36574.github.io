@@ -7,9 +7,9 @@
        
     </style>
     <header style="border: 2px solid rgb(255, 255, 255); padding: 40px; margin:60px;">
-        <h1 >Strona</h1>
+         <h1 >Strona</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </header>
+    </header>
     </header>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +18,7 @@
 <body>
     <header>
         <h1>Lorem Ipsum</h1>
-
+<div class="button-flex-box">
     <a class="link-button" href="podstrona.html" target="blank">link do podstrony</a>
     <br>
     <button onclick="location.href='podstrona.html'">
@@ -26,6 +26,7 @@
     </button>
     <br>
     <a class href="https://pja.edu.pl"target="blank" title="strona pjatka"></a>
+</div>
     </header>
     <style>
         body {background-color:rgb(190, 176, 230)}
@@ -45,6 +46,28 @@
             background-color: aliceblue;
             color: purple;
             transition-duration: 0.3s;
+        }
+
+        .button-flex-box{
+            display: flex;
+            flex-wrap wrap;
+            flex-direction:row;
+            justify-content:center;
+            background-color: pink;
+            height: 60px;
+            
+        }
+        .button-flex-box > a, button{
+            height:60px;
+        }
+        .flex-panel{
+            display:flex;
+        }
+        .flex-panel > div{
+            min-width: 50%;
+        }
+        .flex-panel > img{
+            width
         }
 
         </style>
